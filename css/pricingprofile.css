@@ -1,0 +1,37 @@
+/*pricings profile*/
+body {
+  background-image: url(../Images/polorbg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+  float: left;
+  position: relative;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.img{
+	width: 93%;
+	padding: 10px;
+}
+
+#details{
+	float: left;
+	color: brown;
+	background-color: #FFBDBD;
+	background-image: linear-gradient(to bottom right, pink, white);
+	border-radius: 10%;
+	font-size: 20px;
+	margin: 25px;
+	padding: 30px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
